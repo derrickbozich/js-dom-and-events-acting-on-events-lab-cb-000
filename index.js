@@ -29,7 +29,10 @@ function clearEmployeeListOnLinkClick(){
   let anchor = document.querySelector('a');
   anchor.addEventListener('click', () => {
     let list = document.querySelector('.employee-list');
-    list.removeChild(list.children[0]);
+    for (let i = 0; i < list.length; i++){
+      list.removeChild(list.children[i]);
+    }
+  
   });
 
 }
