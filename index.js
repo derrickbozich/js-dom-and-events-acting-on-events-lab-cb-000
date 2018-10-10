@@ -33,7 +33,6 @@ function clearEmployeeListOnLinkClick(){
     while (list.children.length != 0) {
       list.removeChild(list.children[0]);
     }
-    debugger
     list.innerHTML = '';
 
   });
