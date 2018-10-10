@@ -29,9 +29,10 @@ function clearEmployeeListOnLinkClick(){
   let anchor = document.querySelector('a');
   anchor.addEventListener('click', () => {
     let list = document.querySelector('.employee-list');
-    debugger
+
     while (list.children) {
       list.removeChild(list.children[0]);
+      debugger
     }
   
 
