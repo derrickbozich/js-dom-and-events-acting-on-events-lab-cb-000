@@ -30,11 +30,11 @@ function clearEmployeeListOnLinkClick(){
   anchor.addEventListener('click', () => {
     let list = document.querySelector('.employee-list');
 
-    while (list.children) {
+    while (list.children === undefined || list.children.length == 0  ) {
       list.removeChild(list.children[0]);
       debugger
     }
-  
+
 
   });
 
