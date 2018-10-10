@@ -25,12 +25,12 @@ function addNewLiOnClick(){
   });
 }
 
-// function clearEmployeeListOnLinkClick(){
-//   let anchor = document.querySelector('a');
-//   anchor.addEventListener("click", () => {
-//
-//     let list = document.querySelector('.employee-list').children;
-//
-//   }
-//
-// }
+function clearEmployeeListOnLinkClick(){
+  let anchor = document.querySelector('a');
+  anchor.addEventListener("click", () => {
+
+    let list = document.querySelector('.employee-list').children;
+
+  }
+
+}
