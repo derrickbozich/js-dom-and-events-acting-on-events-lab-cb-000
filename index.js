@@ -34,7 +34,7 @@ function clearEmployeeListOnLinkClick(){
       list.removeChild(list.children[0]);
       debugger
     }
-    list.trim();
+    list.innerText.trim();
 
   });
 
